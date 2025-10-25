@@ -20,7 +20,7 @@ small_font = load_font("text.otf", 50)
 
 black = (0, 0, 0)
 red = (120, 1, 22)
-orange = (216, 87, 42)
+orange =(216, 87, 42)
 white = (255, 255, 255)
 
 pg.init()
@@ -39,11 +39,11 @@ def draw_text(text, font, color, x, y, center=False):
 
 def generate_number():
     return str(random.randrange(1000, 10000))
-
 def main():
     num = generate_number()
     user_input = ""
     message = "Guess the 4-digit number:"
+
     feedback = ""
     tries = 0
     game_over = False
