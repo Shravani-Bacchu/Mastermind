@@ -15,7 +15,7 @@ def load_font(path, size):
     except FileNotFoundError:
         print(f"Font file '{path}' not found. Using default font.")
         return pg.font.SysFont(None, size)
-font = load_font("title.ttf",60)
+font = load_font("title_font.ttf",60)
 small_font = load_font("text.otf", 50)
 
 black = (0, 0, 0)
